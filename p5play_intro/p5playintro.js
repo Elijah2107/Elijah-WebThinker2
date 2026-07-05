@@ -27,7 +27,7 @@ function setup() {
    ball.bounciness = 1;
    ball.collider = "dynamic";
       // write your codes here
-  b
+  box
 }
 
 function draw() {
