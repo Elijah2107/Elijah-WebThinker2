@@ -12,7 +12,7 @@ function setup() {
   stroke("pink")
   strokeWeight(10);
 
-  CS
+  circle
     // End Basic shape testing
 
    // Create a bouncing ball sprite
