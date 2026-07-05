@@ -17,17 +17,18 @@ function setup() {
     // End Basic shape testing
 
    // Create a bouncing ball sprite
-   ball = new Sprite();
-   ball.x = 100;
-   ball.y = 200;
-   ball.diameter = 40;
-   ball.color = 'blue';
-   ball.vel.x = 20;
-   ball.vel.y = 20;
-   ball.bounciness = 1;
-   ball.collider = "dynamic";
+  ball = new Sprite();
+  ball.x = 100;
+  ball.y = 200;
+  ball.diameter = 40;
+  ball.color = 'blue';
+  ball.vel.x = 20;
+  ball.vel.y = 20;
+  ball.bounciness = 1;
+  ball.collider = "dynamic";
       // write your codes here
-  box
+  box = new Sprite();
+  
 }
 
 function draw() {
