@@ -29,7 +29,8 @@ function setup() {
       // write your codes here
   box = new Sprite();
   box.x = 100;
-  box
+  box.y = 100;
+  box.w
 }
 
 function draw() {
