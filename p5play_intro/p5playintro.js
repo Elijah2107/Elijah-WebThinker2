@@ -1,3 +1,6 @@
+let ball;
+let box;
+
 function setup() {
   // Set up the canvas
   new Canvas(800, 400);
@@ -9,7 +12,8 @@ function setup() {
   // End Basic shape testing
 
    // Create a bouncing ball sprite
-   // write your codes here
+   ball = new Sprite()
+      // write your codes here
 
 }
 
