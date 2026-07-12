@@ -25,7 +25,7 @@ function setup() {
   // --- Exercise: Age category classification ---
   // write your codes here
   
-  let age = 11
+  let age = 14
   if (age < 9) {
     console.log("Primary School")
   } else if (age < 12) {
