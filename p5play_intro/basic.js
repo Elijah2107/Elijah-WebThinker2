@@ -25,18 +25,19 @@ function setup() {
   // --- Exercise: Age category classification ---
   // write your codes here
   
-  let age = 14
-  if (age < 9) {
-    console.log("Primary School")
-  } else if (age < 12) {
-    console.log("Upper Primary")
-  } else {
-    console.log("Secondary School")
-  }
-  
+  // let age = 14
+  // if (age < 9) {
+  //   console.log("Primary School")
+  // } else if (age < 12) {
+  //   console.log("Upper Primary")
+  // } else {
+  //   console.log("Secondary School")
+  // }
+
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
+  
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
