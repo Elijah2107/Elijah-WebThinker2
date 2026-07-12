@@ -22,9 +22,9 @@ function setup() {
   ball.y = 200;
   ball.diameter = 40;
   ball.color = 'blue';
-  ball.vel.x = 1000;
-  ball.vel.y = 1000;
-  ball.bounciness = 1;
+  ball.vel.x = 20;
+  ball.vel.y = 20;
+  ball.bounciness = 10;
   ball.collider = "dynamic";
       // write your codes here
   box = new Sprite();
