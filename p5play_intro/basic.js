@@ -45,6 +45,7 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 
-  let groceries = ["apple"]
+  let groceries = ["apple", "beard", "milk"];
+  
 }
 
