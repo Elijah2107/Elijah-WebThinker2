@@ -21,10 +21,12 @@ function setup() {
   //   sum = sum + number
   // }
   // console.log(sum)
-  
+
   // --- Exercise: Age category classification ---
   // write your codes here
-
+  
+  let age
+  
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
