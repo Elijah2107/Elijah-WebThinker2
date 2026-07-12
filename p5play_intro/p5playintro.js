@@ -48,5 +48,6 @@ function draw() {
   }
   if (ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2){
     
+    
   }
 }
