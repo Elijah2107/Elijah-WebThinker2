@@ -33,6 +33,7 @@ function setup() {
   } else {
     console.log("Secondary School")
   }
+  
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
