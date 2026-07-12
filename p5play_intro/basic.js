@@ -9,7 +9,10 @@ function setup() {
   let area = 0.5 * base * height
   console.log(area)
   text(area, 100,100)
-  
+
+  for (let number = 1; number <= 10; number++) {
+    console
+  }
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
