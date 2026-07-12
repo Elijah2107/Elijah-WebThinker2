@@ -23,7 +23,7 @@ function setup() {
   console.log(sum)
   // --- Exercise: Age category classification ---
   // write your codes here
-
+  
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
