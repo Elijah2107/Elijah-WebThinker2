@@ -6,7 +6,7 @@ function setup() {
   let height = 5
   let area = 0.5 * base * height
   console.log(area)
-  text(area, )
+  text(area, 100,100)
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
