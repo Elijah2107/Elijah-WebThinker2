@@ -46,6 +46,6 @@ function setup() {
   // write your codes here
 
   let groceries = ["apple", "beard", "milk"];
-  groceries.push
+  groceries.push()
 }
 
