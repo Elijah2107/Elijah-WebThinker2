@@ -39,7 +39,7 @@ function setup() {
 
   let count = 0
   while (count < 5) {
-    console.log("Counter: ")
+    console.log("Counter: ", count);
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
