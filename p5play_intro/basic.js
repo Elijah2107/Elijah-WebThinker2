@@ -11,7 +11,7 @@ function setup() {
   text(area, 100,100)
 
   for (let number = 1; number <= 10; number++) {
-    console
+    console.log("Counting..." + number)
   }
   // --- Exercise: Area of Triangle ---
   // write your codes here
