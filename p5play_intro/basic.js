@@ -1,6 +1,8 @@
 function setup() {
   // write your codes here
   new Canvas(800,600);
+  background(250);
+  
   console.log("hello!");
   let base = 10
   let height = 5
