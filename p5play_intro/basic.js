@@ -38,7 +38,7 @@ function setup() {
   // write your codes here
 
   let count = 19
-  while (count > 1) {
+  while (count > 0) {
     console.log("Counter: ", count);
     count -= 2;
   }
