@@ -40,7 +40,7 @@ function setup() {
   let count = 19
   while (count > 1) {
     console.log("Counter: ", count);
-    count++;
+    count -= 2;
   }
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
