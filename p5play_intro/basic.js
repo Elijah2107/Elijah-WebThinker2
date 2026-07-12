@@ -3,16 +3,7 @@ function setup() {
   new Canvas(800,600);
   background(250);
   
-  console.log("hello!");
-  let base = 10
-  let height = 5
-  let area = 0.5 * base * height
-  console.log(area)
-  text(area, 100,100)
-
-  for (let number = 1; number <= 10; number++) {
-    console.log("Counting..." + number)
-  }
+  
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
