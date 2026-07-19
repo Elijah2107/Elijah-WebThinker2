@@ -9,7 +9,8 @@ function preload() {
 function setup() {
     new Canvas(400,600);
     
-    bird = new SpeechRecognitionErrorEvent()
+    bird = new Spirit();
+    
 }
 
 function draw() {
