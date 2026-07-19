@@ -1,5 +1,9 @@
 let bird,floor;
-let flapMidImg, bg
+let flapMidImg, bg, base;
+
+function preload() {
+    
+}
 function setup() {
     new Canvas(400,600);
     background(220);
