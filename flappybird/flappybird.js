@@ -16,6 +16,8 @@ function setup() {
     bird.height = 30;
     bird.img = flapMidImg;
 
+    bird.collider
+
 }
 
 function draw() {
