@@ -1,4 +1,5 @@
-
+let bird,floor;
+let 
 function setup() {
     new Canvas(400,600);
     background(220);
