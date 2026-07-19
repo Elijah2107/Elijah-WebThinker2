@@ -8,7 +8,8 @@ function preload() {
 }
 function setup() {
     new Canvas(400,600);
-    background(220);
+    
+    bird
 }
 
 function draw() {
