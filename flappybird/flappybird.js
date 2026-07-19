@@ -26,7 +26,8 @@ function setup() {
     floor.x = 200;
     floor.y = height - 20;
     floor.width = 400;
-    floor.
+    floor.height = 125;
+    floor.collider =
 
 }
 
