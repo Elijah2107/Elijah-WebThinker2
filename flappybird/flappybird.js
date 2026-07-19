@@ -28,7 +28,7 @@ function setup() {
     floor.width = 400;
     floor.height = 125;
     floor.collider = "static";
-    floor.img = base
+    floor.img = base;
 
 }
 
