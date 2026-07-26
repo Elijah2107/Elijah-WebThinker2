@@ -66,7 +66,7 @@ function draw() {
         spawnRipePair();
     }
 
-    bird
+    bird.x = bird.x + 
 }
 
 function spawnRipePair() {
