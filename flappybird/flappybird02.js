@@ -61,6 +61,6 @@ function draw() {
     }
 
     if (frameCount === 1) {
-        spawn
+        spawnRipePair();
     }
 }
