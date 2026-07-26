@@ -49,6 +49,6 @@ function draw() {
     text('vel.y:' + bird.vel.y.toFixed(2), 10, 20);   
 
     if (bird.vel.y < 0) {
-        bird.img = flapDownImg
-    }
+        bird.img = flapDownImg;
+    } else if
 }
