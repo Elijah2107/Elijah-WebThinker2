@@ -73,5 +73,5 @@ function spawnRipePair() {
     let gap = 50;
     let midY = height / 2;
 
-    bottomPipe = new
+    bottomPipe = new Sprite(400, midY)
 }
