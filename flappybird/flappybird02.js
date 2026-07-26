@@ -67,7 +67,7 @@ function draw() {
     }
 
     bird.x = bird.x + 10
-    
+    camera.x = bird.x;
 }
 
 function spawnRipePair() {
