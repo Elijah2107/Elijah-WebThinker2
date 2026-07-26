@@ -77,5 +77,5 @@ function spawnRipePair() {
     bottomPipe.img = pipe;
 
     pipeGroup.add(bottomPipe);
-    
+    pipeGroup.layer
 }
