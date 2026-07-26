@@ -1,6 +1,6 @@
 let bird,floor;
 let flapMidImg, bg, base;
-let flap
+let flapUpImg, flapDownImg
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
