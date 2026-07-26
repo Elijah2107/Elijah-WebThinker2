@@ -75,4 +75,6 @@ function spawnRipePair() {
 
     bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52, 320, 'static');
     bottomPipe.img = pipe;
+
+    pipe
 }
