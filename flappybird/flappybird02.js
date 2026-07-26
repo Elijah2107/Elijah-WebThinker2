@@ -66,7 +66,6 @@ function draw() {
         spawnRipePair();
     }
 
-    function spawnRipePair() {
-
-    }
+    
 }
+function spawnRipePair() 
