@@ -71,5 +71,7 @@ function draw() {
 
 function spawnRipePair() {
     let gap = 50;
-    let midY = height
+    let midY = height / 2;
+
+    bottom
 }
