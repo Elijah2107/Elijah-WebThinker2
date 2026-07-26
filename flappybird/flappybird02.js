@@ -17,7 +17,7 @@ function setup() {
     bird.img = flapMidImg;
 
     bird.collider = "dynamic";
-    bird.mass = 0;
+    bird.mass = 1;
     bird.drag = 0.02;
     bird.bounciness = 0.5;
     world.gravity.y = 22;
