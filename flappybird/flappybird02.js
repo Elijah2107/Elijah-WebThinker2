@@ -66,7 +66,7 @@ function draw() {
         spawnRipePair();
     }
 
-    
+    bird
 }
 
 function spawnRipePair() {
@@ -84,5 +84,5 @@ function spawnRipePair() {
     pipeGroup.add(topPipe)
     pipeGroup.layer = 0;
 
-    
+
 }
