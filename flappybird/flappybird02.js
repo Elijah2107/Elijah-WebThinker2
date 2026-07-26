@@ -7,7 +7,7 @@ function preload() {
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
-    flapDownImg = loadImage('assets')
+    flapDownImg = loadImage('assets/yellowbird')
 
 }
 function setup() {
