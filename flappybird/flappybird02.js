@@ -1,6 +1,8 @@
 let bird,floor;
 let flapMidImg, bg, base;
 let flapUpImg, flapDownImg;
+let pipe;
+let bottomPipe;
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
@@ -65,6 +67,6 @@ function draw() {
     }
 
     function spawnRipePair() {
-        
+
     }
 }
