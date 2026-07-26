@@ -80,5 +80,4 @@ function spawnRipePair() {
     pipeGroup.layer = 0;
 
     pipeGroup.add(topPipe);
-    pipeGroup.layer = 100;
 }
