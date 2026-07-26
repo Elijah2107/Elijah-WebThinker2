@@ -78,4 +78,6 @@ function spawnRipePair() {
 
     pipeGroup.add(bottomPipe);
     pipeGroup.layer = 0;
+
+    pipeGroup.add(topPipe)
 }
