@@ -5,6 +5,7 @@ let pipe; // image for pipes
 let topPipe, bottomPipe;
 let pipeGroup; // declare the group for pipe
 
+
 function preload() {
     // bird image, background and the floor
     flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
