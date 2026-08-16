@@ -22,7 +22,7 @@ function preload() {
     base = loadImage('assets/base.png');
 
     for (let i = 0; i < 10; i++) {
-      numberImages[i]
+      numberImages[i] = loadImage('assets/')
     }
 }
 
