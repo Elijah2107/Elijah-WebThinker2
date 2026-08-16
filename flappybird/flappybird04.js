@@ -182,7 +182,7 @@ function draw() {
         startMessageLabel.y = height / 2 - 50;
 
         loop();
-      }, 3000
+      }, 3000);
     }
 
     // Debug info (optional)
