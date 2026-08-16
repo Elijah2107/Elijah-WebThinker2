@@ -63,8 +63,6 @@ function setup() {
 function draw() {
   image(bg, 0, 0, width, height);
 if (startGame){
-  
-}
   // Apply upward push when space is pressed
   if (kb.presses('space') || mouse.presses()) {
     bird.vel.y = -5; // which direction do you think this is?
@@ -97,6 +95,8 @@ if (startGame){
   text('sleeping: ' + bird.sleeping , 10, 60);
 
   drawScore(width/2, 20, score, 24, 36);
+}
+
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
