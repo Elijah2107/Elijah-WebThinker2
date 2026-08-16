@@ -22,7 +22,7 @@ function preload() {
     base = loadImage('assets/base.png');
 
     for (let i = 0; i < 10; i++) {
-      numberImages[i] = loadImage('assets/' + i +'.png')
+      numberImages[i] = loadImage('assets/' + i +'.png');
     }
 }
 
@@ -54,6 +54,7 @@ function setup() {
   floor.img = base;
 
   pipeGroup = new Group();
+  
 }
 
 function draw() {
