@@ -20,6 +20,10 @@ function preload() {
 
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
+
+    for (let i = 0; i < 10; i++) {
+      numberImages[i]
+    }
 }
 
 function setup() {
