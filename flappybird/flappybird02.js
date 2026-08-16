@@ -5,6 +5,8 @@ let pipe; // image for pipes
 let topPipe, bottomPipe;
 let pipeGroup; // declare the group for pipe
 
+let score = 0;
+let numberImages
 
 function preload() {
     // bird image, background and the floor
