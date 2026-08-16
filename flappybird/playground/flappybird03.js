@@ -134,7 +134,7 @@ function draw() {
     // increase score if pipe passed
     for (let pipe of pipeGroup) {
       let pipeRightEdge = pipe.x + pipe.w / 2;
-      
+      let birdLeftEdge = bird.x 
     }
 
     // call drawScore function. scoreWidth=24,scoreHeight=36
