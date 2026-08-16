@@ -100,8 +100,8 @@ function draw() {
 function drawScore(x, y, score, digitWidth, digitHeight) {
   scoreDigits.removeAll();
   let scoreStr = str(score);
-  let totalWidth = scoreStr.length * digitalwidth
-
+  let totalWidth = scoreStr.length * digitalWidth;
+  let 
 }
 
 function spawnPipePair(){
