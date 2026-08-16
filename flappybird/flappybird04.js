@@ -169,7 +169,7 @@ function draw() {
         score = 0
         startGame = false;
 
-        pipes.removeAll();
+        pipeGroup.removeAll();
         bird.vel.x = 0;
         bird.vel.y = 0;
         bird.rotation = 0;
@@ -177,7 +177,7 @@ function draw() {
         bird.y = 200;
 
         gameoverLabel.remove();
-        startMessageLabel.visible = true;
+        start.visible = true;
         startMessageLabel.x = bird.x;
         startMessageLabel.y = height / 2 - 50;
 
