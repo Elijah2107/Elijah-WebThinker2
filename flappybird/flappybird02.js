@@ -55,7 +55,7 @@ function setup() {
 
   pipeGroup = new Group();
 
-  scoreDigits = new G
+  scoreDigits = new Group()
 }
 
 function draw() {
