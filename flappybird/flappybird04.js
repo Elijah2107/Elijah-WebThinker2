@@ -177,9 +177,9 @@ function draw() {
         bird.y = 200;
 
         gameoverLabel.remove();
-        start.visible = true;
-        startMessageLabel.x = bird.x;
-        startMessageLabel.y = height / 2 - 50;
+        startScreenLabel.visible = true;
+        startScreenLabel.x = bird.x;
+        startScreenLabel.y = height / 2 - 50;
 
         loop();
       }, 3000);
