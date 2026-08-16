@@ -7,7 +7,7 @@ let pipeGroup; // declare the group for pipe
 
 let score = 0;
 let numberImages = [];
-let scoreDigitds
+let scoreDigits;
 
 function preload() {
     // bird image, background and the floor
