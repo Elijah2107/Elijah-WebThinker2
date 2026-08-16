@@ -112,6 +112,9 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     moveGroup(scoreDigits, CanvasCaptureMediaStreamTrack.x, 24);
   }
   
+  function moveGroup(group, targetX, spacing) {
+    
+  }
 }
 
 function spawnPipePair(){
