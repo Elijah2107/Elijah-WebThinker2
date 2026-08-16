@@ -54,7 +54,8 @@ function setup() {
   floor.img = base;
 
   pipeGroup = new Group();
-  
+
+  scoreD
 }
 
 function draw() {
