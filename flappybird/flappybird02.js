@@ -99,7 +99,7 @@ function draw() {
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
   scoreDigits.removeAll();
-  let 
+  let scoreStr = str
 }
 
 function spawnPipePair(){
