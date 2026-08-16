@@ -110,8 +110,8 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     digitSprite.img = numberImages[digit];
 
     moveGroup(scoreDigits, CanvasCaptureMediaStreamTrack.x, 24);
- 
   }
+  
 }
 
 function spawnPipePair(){
