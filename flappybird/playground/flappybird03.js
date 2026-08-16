@@ -133,7 +133,8 @@ function draw() {
 
     // increase score if pipe passed
     for (let pipe of pipeGroup) {
-      let pipeRightEdge = pipe.x + pipe
+      let pipeRightEdge = pipe.x + pipe.w / 2;
+      
     }
 
     // call drawScore function. scoreWidth=24,scoreHeight=36
