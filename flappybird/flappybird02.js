@@ -56,7 +56,8 @@ function setup() {
   pipeGroup = new Group();
 
   scoreDigits = new Group();
-  scoreDigits.collider = 'none'
+  scoreDigits.collider = 'none';
+  scoreDigits.layer
 }
 
 function draw() {
