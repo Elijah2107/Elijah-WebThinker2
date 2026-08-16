@@ -94,9 +94,12 @@ function draw() {
   text('isMoving: ' + bird.isMoving, 10, 40);
   text('sleeping: ' + bird.sleeping , 10, 60);
 
-  drawScore(width/2, 20, score, 24, 36)
+  drawScore(width/2, 20, score, 24, 36);
 }
- 
+
+function drawScore(x, y, score, digitWidth, digitHeight) {
+  
+}
 
 function spawnPipePair(){
   // fill in this code later
