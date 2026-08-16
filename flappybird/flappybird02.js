@@ -119,7 +119,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
       group[i].x = startX + i * spacing;
     }
 
-    let totalWidth
+    let totalWidth = (group.length -1)
 
   }
 }
