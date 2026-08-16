@@ -98,7 +98,8 @@ function draw() {
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
-  
+  scoreDigits.removeAll();
+  let 
 }
 
 function spawnPipePair(){
