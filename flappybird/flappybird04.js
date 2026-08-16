@@ -165,7 +165,24 @@ function draw() {
 
       noLoop(); 
 
-      set 
+      setTimeout(() => {
+        score = 0
+        startGame = false;
+
+        pipes.removeAll();
+        bird.vel.x = 0;
+        bird.vel.y = 0;
+        bird.rotation = 0;
+        bird.collider = 'static'
+        bird.y = 200;
+
+        gameoverLabel.remove();
+        startMessageLabel.visible = true;
+        startMessageLabel.x = bird.x;
+        startMessageLabel.y = height / 2 - 50;
+
+        loop();
+      }, 3000
     }
 
     // Debug info (optional)
