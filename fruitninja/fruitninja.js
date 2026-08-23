@@ -35,5 +35,5 @@ function draw() {
 function spawnFruit() {
     let fruitData = random(fruitTypes);
     let randomX = random (300, 500);
-    let fruit 
+    let fruit = new fruitGroup.scri
 }
