@@ -8,7 +8,7 @@ function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
     
     let peach = {
-        whole: loadImage('assets')
+        whole: loadImage('assets/peachwhole.png')
     }
 }
 
