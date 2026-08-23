@@ -9,7 +9,7 @@ function preload() {
     
     let peach = {
         whole: loadImage('assets/peachwhole.png')
-    }
+    };
 }
 
 function setup() {
