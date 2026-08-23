@@ -10,6 +10,10 @@ function preload() {
     let peach = {
         whole: loadImage('assets/peachwhole.png')
     };
+
+    let watermelon = {
+        whole: loadImage
+    }
 }
 
 function setup() {
