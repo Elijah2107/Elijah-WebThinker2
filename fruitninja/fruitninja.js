@@ -21,6 +21,8 @@ function preload() {
 function setup() {
     new Canvas(800,600);
     world.gravity.y = 10;
+
+    fruitGroup
 }
 
 function draw() {
