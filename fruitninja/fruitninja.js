@@ -37,7 +37,7 @@ function draw() {
         trail = new Sprite(mouse.x, mouse.y, 7);
         trail.collider = 'none';
         trail.color = "red";
-        
+        trail.life = 10;
     }
 }
 
