@@ -58,4 +58,6 @@ function sliceFruit() {
     if (fruit.sliced) {
         continue;
     }
+
+    let d = dist(mouse.x)
 }
