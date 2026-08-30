@@ -91,5 +91,6 @@ function splitFruit(x, y, fruitData) {
     left.life = 30;
 
     let right = new fruitHalves.Sprite(x + 10, y, 40, 40);
-    right.img
+    right.img = fruitData.half2;
+    
 }
