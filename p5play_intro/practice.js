@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    if (mouse.presses) {
-        
+    if (mouse.presses()) {
+
     }
 }
