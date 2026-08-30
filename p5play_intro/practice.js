@@ -2,7 +2,7 @@ let box;
 let floor;
 function setup() {
     new Canvas(1000,600)
-    floor = new Sprite()
+    floor = new Sprite(500,)
 }
 
 function draw() {
