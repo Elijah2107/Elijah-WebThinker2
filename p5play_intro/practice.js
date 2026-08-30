@@ -5,9 +5,6 @@ function setup() {
     floor = new Sprite(500,500,800,40)
     world.gravity.y = 10
     floor.collider = "static"
-    for (let i = 1; i <= 10; 1++) {
-        console.log("Counting..." + i);
-    }
 }
 
 function draw() {
