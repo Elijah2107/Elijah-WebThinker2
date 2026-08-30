@@ -1,5 +1,5 @@
 let box;
-
+let floor;
 function setup() {
     new Canvas(1000,600)
 }
