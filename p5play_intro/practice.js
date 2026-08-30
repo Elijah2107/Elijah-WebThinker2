@@ -10,4 +10,5 @@ function draw() {
     if (mouse.presses()) {
         box = new Sprite(mouseX,mouseY,50,50)
     }
+    background
 }
