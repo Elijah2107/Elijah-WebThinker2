@@ -69,5 +69,6 @@ function sliceFruit() {
             fruit.remove();
 
             break;
+        }
     }
 }
