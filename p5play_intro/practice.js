@@ -3,6 +3,7 @@ let floor;
 function setup() {
     new Canvas(1000,600)
     floor = new Sprite(500,500,800,40)
+    world.gravity.y = 10
 }
 
 function draw() {
