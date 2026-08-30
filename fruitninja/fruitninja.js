@@ -54,4 +54,8 @@ function spawnFruit() {
     fruit.friction = 0;
 }
 
-function sliceFruit()
+function sliceFruit() {
+    if (fruit.sliced) {
+        continue;
+    }
+}
