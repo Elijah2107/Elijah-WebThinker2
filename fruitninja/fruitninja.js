@@ -29,6 +29,7 @@ function setup() {
     world.gravity.y = 10;
 
     fruitGroup = new Group();
+    f
 }
 
 function draw() {
