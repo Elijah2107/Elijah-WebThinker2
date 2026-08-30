@@ -55,10 +55,10 @@ function spawnFruit() {
 }
 
 function sliceFruit() {
-    for (let fruit of fruitGroup)
-    if (fruit.sliced) {
-        continue;
+    for (let fruit of fruitGroup) {
+
     }
+    
 
     let d = dist(mouse.x, mouse.y, fruit.x, fruit.y);
     if (d < ((fruit.d / 2) + 5)) {
