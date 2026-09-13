@@ -60,7 +60,7 @@ function draw() {
     text('Score: ' + score, 10, 10);
 
     for (let fruit of fruitGroup) {
-        
+        if (fruit.y > height + 50)
     }
 }
 
