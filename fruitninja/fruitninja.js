@@ -51,7 +51,8 @@ function draw() {
 
         sliceFruit();
     }
-    stroke 
+    stroke (158,69,69);
+    fill(255);
 }
 
 function spawnFruit() {
