@@ -41,7 +41,7 @@ function draw() {
     clear();
     image(dojoBG, 0, 0, width, height);
 
-    if (frameCount % 60 === 0) {
+    if (frameCount % 90 === 0) {
         spawnFruit();
     }
 
