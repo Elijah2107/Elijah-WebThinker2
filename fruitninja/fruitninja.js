@@ -65,7 +65,7 @@ function draw() {
             missedFruits += 1;
         }
     }
-    text('Missed: ' + missedFruits, 200, 10);a
+    text('Missed: ' + missedFruits, 200, 10);
 }
 
 function spawnFruit() {
