@@ -58,6 +58,10 @@ function draw() {
     textSize(24);
     textAlign(LEFT,TOP);
     text('Score: ' + score, 10, 10);
+
+    for (let fruit of fruitGroup) {
+        
+    }
 }
 
 function spawnFruit() {
