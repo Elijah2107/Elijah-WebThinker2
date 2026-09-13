@@ -62,6 +62,7 @@ function spawnFruit() {
     fruit.friction = 0;
 }
 
+
 function sliceFruit() {
     for (let fruit of fruitGroup) {
         if (fruit.sliced) {
