@@ -55,7 +55,7 @@ function draw() {
     fill(255);
     textSize(24);
     textAlign(LEFT,TOP);
-    Text()
+    text('Score: ')
 }
 
 function spawnFruit() {
