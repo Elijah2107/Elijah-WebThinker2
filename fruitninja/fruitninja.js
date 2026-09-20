@@ -49,7 +49,7 @@ function draw() {
         fill(255);
         textAlign(CENTER, CENTER);
         textSize(48);
-        text()
+        text('Fruit Ninja', )
     }
 
     if (frameCount % 60 === 0) {
