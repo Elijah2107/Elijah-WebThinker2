@@ -72,7 +72,7 @@ function draw() {
         text('Game Over!', width / 2, height / 2 - 60);
         textSize(24);
         fill(255);
-        text('Score: ' + score )
+        text('Score: ' + score, width / 2,)
     }
 
     if (frameCount % 60 === 0) {
