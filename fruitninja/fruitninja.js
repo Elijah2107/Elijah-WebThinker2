@@ -67,7 +67,9 @@ function draw() {
     }
     text('Missed: ' + missedFruits, 200, 10);
 
-    stroke
+    stroke(158, 69, 69);
+    fill(255);
+    
 }
 
 function spawnFruit() {
