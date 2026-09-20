@@ -30,6 +30,7 @@ function preload() {
     };
 
     fruitTypes = [peach, watermelon];
+    sliceSound = loadSound
 }
 
 function setup() {
