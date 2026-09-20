@@ -66,7 +66,8 @@ function draw() {
     if (gameState === 'gameover') {
         fill(0, 180);
         rect(0, 0, width, height);
-        fill(255, 0, 0)
+        fill(255, 0, 0);
+        textAlign
     }
 
     if (frameCount % 60 === 0) {
