@@ -69,7 +69,7 @@ function draw() {
         fill(255, 0, 0);
         textAlign(CENTER, CENTER);
         textSize(48);
-        
+        text('Game Over!', width)
     }
 
     if (frameCount % 60 === 0) {
