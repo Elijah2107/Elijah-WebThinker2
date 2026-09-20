@@ -30,7 +30,7 @@ function preload() {
     };
 
     fruitTypes = [peach, watermelon];
-    sliceSound = loadSound('assets/fruit-ninja-')
+    sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
 }
 
 function setup() {
