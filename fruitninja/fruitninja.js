@@ -63,7 +63,9 @@ function draw() {
         text('Press SPACE or Click to Start', width / 2, height / 2 + 20);
         return;
     }
-    if gameState
+    if (gameState === 'gameover') {
+        
+    }
 
     if (frameCount % 60 === 0) {
         spawnFruit();
