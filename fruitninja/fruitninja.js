@@ -73,7 +73,7 @@ function draw() {
         textSize(24);
         fill(255);
         text('Score: ' + score, width / 2, height / 2);
-        
+        text('')
     }
 
     if (frameCount % 60 === 0) {
