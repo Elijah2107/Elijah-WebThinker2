@@ -96,7 +96,7 @@ function draw() {
     textAlign(LEFT, TOP);
     text('Score: ' + score, 10, 10);
 
-    gameTimer = floor((millis))
+    gameTimer = floor((millis() - gameStartTime))
 }
 
 function spawnFruit() {
