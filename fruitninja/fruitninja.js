@@ -53,6 +53,8 @@ function draw() {
         textSize(24);
         text('Press SPACE or Click to Start', width / 2, height / 2 + 20);
         return;
+
+        if ()
     }
 
     if (frameCount % 60 === 0) {
