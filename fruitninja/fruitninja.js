@@ -68,6 +68,7 @@ function draw() {
         rect(0, 0, width, height);
         fill(255, 0, 0);
         textAlign(CENTER, CENTER);
+        textSize(48);
         
     }
 
