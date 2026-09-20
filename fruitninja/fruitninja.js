@@ -56,7 +56,7 @@ function draw() {
         gameStartTime = millis();
         gameTimer = 0;
         if (!backgroundTrack.isPlaying()) {
-            background
+            backgroundTrack.loop();
         }
     }
     if (gameState === 'start') {
