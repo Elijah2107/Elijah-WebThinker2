@@ -30,7 +30,7 @@ function preload() {
     };
 
     fruitTypes = [peach, watermelon];
-    sliceSound = loadSound
+    sliceSound = loadSound('assets/fruit-ninja-')
 }
 
 function setup() {
