@@ -42,7 +42,8 @@ function setup() {
 function draw() {
     clear();
     image(dojoBG, 0, 0, width, height);
-
+    
+    if ((kd))
     if (gameState === 'start') {
         fill(0,180);
         rect(0, 0, width, height);
@@ -53,8 +54,6 @@ function draw() {
         textSize(24);
         text('Press SPACE or Click to Start', width / 2, height / 2 + 20);
         return;
-
-        if ()
     }
 
     if (frameCount % 60 === 0) {
