@@ -1,20 +1,17 @@
 // write your codes here
 let dojoBG;
-
 let fruitGroup;
 let fruitTypes = [];
 
 let fruitHalves;
-
 let score = 0;
-
 let missedFruits = 0;
-
 let gameState = 'start';
 
 let gameStartTime = 0;
 let gameTimer = 0;
 let gameDuration = 60;
+
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
     
