@@ -98,7 +98,7 @@ function draw() {
 
     gameTimer = floor((millis() - gameStartTime) / 1000);
 
-    text
+    text('Time: ')
 }
 
 function spawnFruit() {
