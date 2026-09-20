@@ -83,6 +83,7 @@ function draw() {
         text('Score: ' + score, width / 2, height / 2);
         text('Missed Fruits: ' + missedFruits, width / 2, height / 2 + 40);
         text('Press SPACE or Click to Restart', width / 2, height / 2 + 80);
+        backgroundTrack.stop();
         return;
     }
 
