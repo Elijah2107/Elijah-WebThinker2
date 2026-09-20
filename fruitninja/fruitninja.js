@@ -69,7 +69,8 @@ function draw() {
         fill(255, 0, 0);
         textAlign(CENTER, CENTER);
         textSize(48);
-        text('Game Over!', width)
+        text('Game Over!', width / 2, height / 2 - 60);
+        
     }
 
     if (frameCount % 60 === 0) {
