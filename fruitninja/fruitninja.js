@@ -51,7 +51,7 @@ function draw() {
         textSize(48);
         text('Fruit Ninja', width / 2, height / 2 - 40);
         textSize(24);
-        text
+        text('Press SPACE')
     }
 
     if (frameCount % 60 === 0) {
