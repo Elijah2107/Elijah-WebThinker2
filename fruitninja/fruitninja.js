@@ -12,6 +12,7 @@ let missedFruits = 0;
 
 let gameState = 'start';
 
+let gameStart
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
     
