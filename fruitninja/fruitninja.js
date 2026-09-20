@@ -70,6 +70,7 @@ function draw() {
         textAlign(CENTER, CENTER);
         textSize(48);
         text('Game Over!', width / 2, height / 2 - 60);
+        textSize(24);
         
     }
 
