@@ -35,7 +35,7 @@ function preload() {
     };
 
     let bomb = {
-        
+        whole
     }
     fruitTypes = [peach, watermelon];
     sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
