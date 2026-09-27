@@ -58,6 +58,7 @@ function draw() {
         if (!backgroundTrack.isPlaying()) {
             backgroundTrack.loop();
         }
+        
     }
     if (gameState === 'start') {
         fill(0,180);
