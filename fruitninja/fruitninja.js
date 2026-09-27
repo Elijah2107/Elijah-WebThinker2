@@ -63,6 +63,7 @@ function draw() {
         }
         difficultyNumFruits = 1;
     }
+    
     if (gameState === 'start') {
         fill(0,180);
         rect(0, 0, width, height);
