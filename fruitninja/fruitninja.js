@@ -18,6 +18,9 @@ let difficultyNumFruits = 1;
 let lastDifficultyIncrease = 0;
 
 let lives = 3;
+let bomb;
+let bombImg;
+
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
     
@@ -162,7 +165,7 @@ function spawnFruit() {
 }
 
 function spawnBomb() {
-    
+
 }
 
 function sliceFruit() {
