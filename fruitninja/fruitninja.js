@@ -143,6 +143,7 @@ function draw() {
         gameState = 'gameover';
         return;
     }
+    if (lives >= gameDuration)
 }
 
 function spawnFruit() {
