@@ -99,7 +99,7 @@ function draw() {
     }
 
     if (gameTimer - lastDifficultyIncrease >= 15) {
-        difficulty
+        difficultyNumFruits 
     }
 
     if (mouse.pressing()) {
