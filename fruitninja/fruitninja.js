@@ -143,7 +143,7 @@ function draw() {
         gameState = 'gameover';
         return;
     }
-    if (lives >= gameDuration) {
+    if (lives = 0); {
         gameState = 'gameover';
         return;
     }
