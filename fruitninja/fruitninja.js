@@ -63,6 +63,7 @@ function draw() {
             backgroundTrack.loop();
         }
         difficultyNumFruits = 1;
+        lives = 3;
     }
 
     if (gameState === 'start') {
