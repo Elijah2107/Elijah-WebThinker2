@@ -37,7 +37,7 @@ function preload() {
     };
 
     bombImg = {
-        
+        whole: loadImage
     }
 
     fruitTypes = [peach, watermelon];
