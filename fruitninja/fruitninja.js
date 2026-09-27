@@ -17,6 +17,7 @@ let sliceSound;
 let difficultyNumFruits = 1;
 let lastDifficultyIncrease = 0;
 
+let lives = 3
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
     
