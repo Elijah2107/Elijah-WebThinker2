@@ -93,7 +93,9 @@ function draw() {
     }
 
     if (frameCount % 120 === 0) {
-        for (let
+        for (let i = 0; i < difficultyNumFruits; i++) {
+            
+        }
     }
 
     if (mouse.pressing()) {
