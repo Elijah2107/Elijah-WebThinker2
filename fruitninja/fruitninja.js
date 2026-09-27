@@ -14,6 +14,8 @@ let gameDuration = 60;
 
 let sliceSound;
 
+let difficu
+
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
     
