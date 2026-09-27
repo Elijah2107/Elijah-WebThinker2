@@ -98,7 +98,9 @@ function draw() {
         }
     }
 
-    if (gameTimer - lastDifficultyIncrease >= 15)
+    if (gameTimer - lastDifficultyIncrease >= 15) {
+        difficulty
+    }
 
     if (mouse.pressing()) {
         trail = new Sprite(mouse.x, mouse.y, 7);
