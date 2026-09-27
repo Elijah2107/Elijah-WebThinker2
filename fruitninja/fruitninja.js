@@ -63,7 +63,7 @@ function draw() {
         }
         difficultyNumFruits = 1;
     }
-    
+
     if (gameState === 'start') {
         fill(0,180);
         rect(0, 0, width, height);
@@ -92,8 +92,8 @@ function draw() {
         return;
     }
 
-    if (frameCount % 60 === 0) {
-        spawnFruit();
+    if (frameCount % 120 === 0) {
+        for (let
     }
 
     if (mouse.pressing()) {
