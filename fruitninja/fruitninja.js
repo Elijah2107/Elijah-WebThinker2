@@ -35,7 +35,7 @@ function preload() {
         half2: loadImage('assets/watermelonhalf.png'),
     };
 
-    let bomb
+    bomb =
 
     fruitTypes = [peach, watermelon];
     sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
