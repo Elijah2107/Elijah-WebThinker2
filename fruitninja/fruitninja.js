@@ -117,7 +117,7 @@ function draw() {
     textSize(24);
     textAlign(LEFT,TOP);
     text('Score: ' + score, 10, 10);
-    text('Lives: ' + lives, 10, 10);
+    text('Lives: ' + lives, 20, 10);
 
     //text("")
 
