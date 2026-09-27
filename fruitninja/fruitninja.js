@@ -161,6 +161,9 @@ function spawnFruit() {
     fruit.friction = 0;
 }
 
+function spawnBomb() {
+    
+}
 
 function sliceFruit() {
     for (let fruit of fruitGroup) {
