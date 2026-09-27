@@ -144,10 +144,10 @@ function draw() {
         gameState = 'gameover';
         return;
     }
-    // if (lives <= 0); { 
-    //     gameState = 'gameover';
-    //     return;
-    // }
+    if (lives <= 0){ 
+        gameState = 'gameover';
+        return;
+    }
 }
 
 function spawnFruit() {
