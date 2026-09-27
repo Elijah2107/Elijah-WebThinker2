@@ -52,6 +52,7 @@ function draw() {
     image(dojoBG, 0, 0, width, height);
     
     if ((kb.presses(' ') || mouse.presses()) && (gameState === 'start' || gameState === 'gameover')) {
+        lives = 3;
         gameState = 'play';
         score = 0;
         missedFruits = 0;
@@ -63,7 +64,6 @@ function draw() {
             backgroundTrack.loop();
         }
         difficultyNumFruits = 1;
-        lives = 3;
     }
 
     if (gameState === 'start') {
