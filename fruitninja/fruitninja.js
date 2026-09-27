@@ -58,7 +58,7 @@ function draw() {
         if (!backgroundTrack.isPlaying()) {
             backgroundTrack.loop();
         }
-        
+        difficultyNumFruits = 1;
     }
     if (gameState === 'start') {
         fill(0,180);
