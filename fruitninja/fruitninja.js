@@ -18,8 +18,6 @@ let difficultyNumFruits = 1;
 let lastDifficultyIncrease = 0;
 
 let lives = 3;
-let bomb;
-let bombImg;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
@@ -36,7 +34,7 @@ function preload() {
         half2: loadImage('assets/watermelonhalf.png'),
     };
 
-    let bomb
+    bomb = {}
     fruitTypes = [peach, watermelon];
     sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
     backgroundTrack = loadSound('assets/fruit-ninja-bgtrack.mp3');
