@@ -1,6 +1,6 @@
 let bird_img;
 let background_img;
-let bird_sprite;
+let bird;
 
 function preload() {
 
@@ -8,4 +8,5 @@ function preload() {
 
 function setup() {
     new Canvas(600,400);
+    
 }
