@@ -1,1 +1,1 @@
-function 
+let bird_img;
