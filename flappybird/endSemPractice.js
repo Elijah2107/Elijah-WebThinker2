@@ -1,9 +1,9 @@
 let bird_img;
-let background_img;
+let backgroundImg;
 let bird;
 
 function preload() {
-    background_img
+    backgroundImg
 }
 
 function setup() {
