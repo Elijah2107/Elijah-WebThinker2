@@ -4,7 +4,7 @@ let bird;
 
 function preload() {
     backgroundImg = loadImage('assets/background-night.png');
-    bird
+    birdImg = loadImage('assets/bluebird')
 }
 
 function setup() {
