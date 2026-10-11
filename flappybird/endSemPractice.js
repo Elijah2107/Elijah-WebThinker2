@@ -3,7 +3,7 @@ let background_img;
 let bird;
 
 function preload() {
-
+    
 }
 
 function setup() {
