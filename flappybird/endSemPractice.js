@@ -8,15 +8,15 @@ function preload() {
 }
 
 function setup() {
-    new Canvas(00,400);
+    new Canvas(600,400);
     
     bird = new Sprite();
     bird.x = width / 2;
     bird.y = 200;
     bird.width = 30;
-    bird.he
+    bird.height 
 }
 
 function draw() {
-    image(backgroundImg, 0, 0, width, height);
+    
 }
