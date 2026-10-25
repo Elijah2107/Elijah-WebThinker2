@@ -20,4 +20,5 @@ function setup() {
 
 function draw() {
     image(backgroundImg, 0, 0, width, height)
+    if(MouseEvent.p22)
 }
