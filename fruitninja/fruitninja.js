@@ -1,4 +1,4 @@
-eww// write your codes here
+// write your codes here
 let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
