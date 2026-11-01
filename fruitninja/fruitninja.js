@@ -49,7 +49,7 @@ function preload() {
     sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
     backgroundTrack = loadSound('assets/fruit-ninja-bgtrack.mp3');
 
-    time
+    timeFruit = loadImage
 }
 
 function setup() {
