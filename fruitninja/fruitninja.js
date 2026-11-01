@@ -50,7 +50,6 @@ function preload() {
     backgroundTrack = loadSound('assets/fruit-ninja-bgtrack.mp3');
 
     
-    timeFruit = loadImage('assets/fruitninja_clock.png');
 }
 
 function setup() {
