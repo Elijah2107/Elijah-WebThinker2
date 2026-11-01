@@ -139,7 +139,7 @@ function draw() {
         if (fruit.y > height + 50) {
             fruit.remove();
             missedFruits += 1;
-            lives -= 1;
+            //lives -= 1;
         }
     }
     text('Missed: ' + missedFruits, 200, 10);
@@ -230,23 +230,21 @@ function spawnBomb() {
 
 function sliceBomb() {
     for (let bomb of bombGroup) {
-        if (bomb.sliced) {
-            continue;
-        }
+        //if (bomb.sliced) {
+        //    continue;
+        //}
     
-    
-
         let d = dist(mouse.x, mouse.y, bomb.x, bomb.y);
         if (d < ((bomb.d / 2) + 5)) {
             bomb.sliced = true;
 
-            const fx = bomb.x;
-            const fy = bomb.y;
+            const bx = bomb.x;
+            const by = bomb.y;
 
             bomb.remove();
-            sliceSound.play();
+            //sliceSound.play();
 
-            splitBomb(fx, fy, bomb.type);
+            splitBomb(bx, by, bomb.type);
             score += 1;
 
             break;
