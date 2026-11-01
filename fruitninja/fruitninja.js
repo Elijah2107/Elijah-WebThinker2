@@ -51,7 +51,7 @@ function preload() {
 
     let timeFruit = {
         whole: loadImage('assets/fruitninja_clock.png'), 
-        half: loadImage('assets/fruitninja_clocl=kHalf')
+        half1: loadImage('assets/fruitninja_clocl=kHalf1.png')
     }
 }
 
