@@ -243,9 +243,9 @@ function sliceBomb() {
             bomb.sliced = true;
 
             const fx = bomb.x;
-            const fy = fruit.y;
+            const fy = bomb.y;
 
-            fruit.remove();
+            bomb.remove();
             sliceSound.play();
 
             splitFruit(fx, fy, fruit.type);
