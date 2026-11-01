@@ -24,8 +24,6 @@ let bombExplosionImg;
 let bombGroup;
 let bombExplosionSound;
 
-let timeFruit;
-let star;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png')
@@ -50,7 +48,7 @@ function preload() {
     sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
     backgroundTrack = loadSound('assets/fruit-ninja-bgtrack.mp3');
 
-    let timeFruit = {
+    let timeFuit = {
         whole: loadImage('assets/fruitninja_clock.png'), 
         half1: loadImage('assets/fruitninja_clockHalf1.png'),
         half2: loadImage('assets/fruitninja_clockHalf2.png'),
