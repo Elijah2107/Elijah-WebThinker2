@@ -160,7 +160,7 @@ function draw() {
         return;
     }
     if (frameCount % 100 === 0) {
-        
+        spawnBomb();
     }
 }
 
