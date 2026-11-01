@@ -39,11 +39,10 @@ function preload() {
         half2: loadImage('assets/watermelonhalf.png'),
     };
 
-    bombImg = {
-        whole: loadImage('assets/fruitninja_bomb.png')
-        
-    }
-
+    bombImg = loadImage('assets/fruitninja_bomb.png') 
+    bombExplosionImg = loadImage('assets/fruitninja_bombExplosion.png');   // load the explosion picture
+    bombExplosionSound = loadSound('assets/fruitninja_explosion.mp3'); 
+    
     fruitTypes = [peach, watermelon];
     sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
     backgroundTrack = loadSound('assets/fruit-ninja-bgtrack.mp3');
