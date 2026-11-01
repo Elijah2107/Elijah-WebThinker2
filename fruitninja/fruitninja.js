@@ -240,9 +240,9 @@ function sliceBomb() {
 
         let d = dist(mouse.x, mouse.y, bomb.x, bomb.y);
         if (d < ((bomb.d / 2) + 5)) {
-            fruit.sliced = true;
+            bomb.sliced = true;
 
-            const fx = fruit.x;
+            const fx = bomb.x;
             const fy = fruit.y;
 
             fruit.remove();
