@@ -208,7 +208,8 @@ function sliceFruit() {
             score += 1;
 
             if (fruit.type.effect !== "addtime") {
-                score += 1
+                score += 1;
+                
             }
 
             break;
