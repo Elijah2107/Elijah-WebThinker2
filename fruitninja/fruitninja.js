@@ -54,6 +54,8 @@ function setup() {
     fruitGroup = new Group();
     
     fruitHalves = new Group();
+
+    bombGroup = new Group();
 }
 
 function draw() {
