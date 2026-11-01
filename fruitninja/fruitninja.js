@@ -248,7 +248,7 @@ function sliceBomb() {
             bomb.remove();
             sliceSound.play();
 
-            splitFruit(fx, fy, fruit.type);
+            splitBomb(fx, fy, bomb.type);
             score += 1;
 
             break;
