@@ -56,9 +56,7 @@ function preload() {
         half2: loadImage('assets/fruitninja_clockHalf2.png'),
     }
 
-    let star = {
-        whole
-    }
+    let st
 }
 
 function setup() {
