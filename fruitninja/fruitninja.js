@@ -232,14 +232,14 @@ function spawnBomb() {
 
 function sliceBomb() {
     for (let bomb of bombGroup) {
-        if (fruit.sliced) {
+        if (bomb.sliced) {
             continue;
         }
     
     
 
         let d = dist(mouse.x, mouse.y, fruit.x, fruit.y);
-        if (d < ((fruit.d / 2) + 5)) {
+        if (d < ((bomb.d / 2) + 5)) {
             fruit.sliced = true;
 
             const fx = fruit.x;
