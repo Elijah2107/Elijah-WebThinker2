@@ -37,7 +37,7 @@ function preload() {
     };
 
     bombImg = {
-        whole: loadImage('assets/bomb.png')
+        whole: loadImage('assets/fruitninja_bomb.png')
         
     }
 
