@@ -124,7 +124,7 @@ function draw() {
         trail.life = 10;
 
         sliceFruit();
-        sliceBomb():
+        sliceBomb();
     }
     stroke(158,69,69);
     fill(255);
