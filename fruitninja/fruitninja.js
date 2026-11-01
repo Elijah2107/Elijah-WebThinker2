@@ -57,7 +57,7 @@ function preload() {
     }
 
     let star = {
-        
+        whole
     }
 }
 
