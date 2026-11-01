@@ -245,7 +245,7 @@ function sliceBomb() {
             //sliceSound.play();
 
             // splitBomb(bx, by, bomb.type);
-            score += 1;
+            lives -= 1;
 
             break;
         }
