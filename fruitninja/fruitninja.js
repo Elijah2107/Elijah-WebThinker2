@@ -231,5 +231,27 @@ function spawnBomb() {
 }
 
 function sliceBomb() {
+    for (let fruit of fruitGroup) {
+        if (fruit.sliced) {
+            continue;
+        }
     
+    
+
+        let d = dist(mouse.x, mouse.y, fruit.x, fruit.y);
+        if (d < ((fruit.d / 2) + 5)) {
+            fruit.sliced = true;
+
+            const fx = fruit.x;
+            const fy = fruit.y;
+
+            fruit.remove();
+            sliceSound.play();
+
+            splitFruit(fx, fy, fruit.type);
+            score += 1;
+
+            break;
+        }
+    }
 }
