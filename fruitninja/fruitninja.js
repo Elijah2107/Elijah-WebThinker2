@@ -231,7 +231,7 @@ function spawnBomb() {
 }
 
 function sliceBomb() {
-    for (let fruit of fruitGroup) {
+    for (let bomb of bombGroup) {
         if (fruit.sliced) {
             continue;
         }
