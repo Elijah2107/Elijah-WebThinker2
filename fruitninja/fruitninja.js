@@ -159,6 +159,7 @@ function draw() {
         gameState = 'gameover';
         return;
     }
+    
 }
 
 function spawnFruit() {
