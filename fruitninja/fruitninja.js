@@ -207,6 +207,8 @@ function sliceFruit() {
             splitFruit(fx, fy, fruit.type);
             score += 1;
 
+            if (fruit.type.effect !== "addtime")
+
             break;
         }
     }
