@@ -159,7 +159,7 @@ function draw() {
         gameState = 'gameover';
         return;
     }
-    if (frameCount % 100 === 0) {
+    if (frameCount % 140 === 0) {
         spawnBomb();
     }
 }
