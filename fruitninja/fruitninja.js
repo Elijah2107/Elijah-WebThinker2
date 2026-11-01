@@ -229,3 +229,7 @@ function spawnBomb() {
     bomb.vel.x = random(-2, 2);
     bomb.friction = 0;
 }
+
+function sliceBomb() {
+    
+}
