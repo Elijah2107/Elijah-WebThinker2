@@ -40,6 +40,14 @@ function preload() {
         half2: loadImage('assets/watermelonhalf.png'),
     };
 
+    let timeFruit = {
+        whole: loadImage('assets/fruitninja_clock.png'), 
+        half1: loadImage('assets/fruitninja_clockHalf1.png'),
+        half2: loadImage('assets/fruitninja_clockHalf2.png'),
+        splash: loadImage('assets/fruitninja_star.png'),
+        effect: "addtime"
+    };
+    
     bombImg = loadImage('assets/fruitninja_bomb.png') 
     bombExplosionImg = loadImage('assets/fruitninja_bombExplosion.png');   // load the explosion picture
     bombExplosionSound = loadSound('assets/fruitninja_explosion.mp3'); 
@@ -48,13 +56,7 @@ function preload() {
     sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
     backgroundTrack = loadSound('assets/fruit-ninja-bgtrack.mp3');
 
-    let timeFruit = {
-        whole: loadImage('assets/fruitninja_clock.png'), 
-        half1: loadImage('assets/fruitninja_clockHalf1.png'),
-        half2: loadImage('assets/fruitninja_clockHalf2.png'),
-        splash: loadImage('assets/fruitninja_star.png'),
-        effect: "addtime"
-    };
+    
 }
 
 function setup() {
